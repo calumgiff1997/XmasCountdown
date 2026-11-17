@@ -328,6 +328,21 @@
       -webkit-backdrop-filter: blur(12px);
     }
 
+    .sod-logo {
+      display: block;
+      width: clamp(110px, 16vw, 175px);
+      height: auto;
+
+      margin: 0 auto 18px;
+
+      object-fit: contain;
+
+      
+      background: transparent;
+
+      filter:
+        drop-shadow(0 8px 12px rgba(0, 0, 0, 0.35));
+    }
     .tree {
       font-size:
         clamp(55px, 8vw, 100px);
@@ -589,6 +604,11 @@
 
     <main class="countdown">
 
+      <img
+        src="SODLOGO.png"
+        alt="SOD"
+        class="sod-logo">
+
       <div class="tree">
         🎄
       </div>
@@ -596,6 +616,7 @@
       <h1>
         Christmas Countdown
       </h1>
+
 
 
       <div class="timer">
